@@ -1,0 +1,97 @@
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    color: darkmagenta;
+    background-color: lightpink;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+header h2 {}
+
+nav {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: flex-end;
+    gap: 20px;
+    background-color: #CFFFA1;
+    align-items: flex-end;
+    margin: 2%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #234106;
+}
+
+a:hover {
+    border: 2px #B2BEA7 solid;
+    border-radius: 5px;
+    box-shadow: 5px #234106;
+}
+
+#aboutme {
+    display: flex;
+    justify-content: center;
+    background-color: #D6C2BF;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+}
+
+h2 {
+    background-color: #DB5481;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+img {
+    border-radius: 20px;
+}
+
+p {
+    background-color: #CFFFA1;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EFFFBE;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #D6C2BF;
+    gap: 50px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #234106;
+    background-color: #EFFFBE;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#mainproject {
+    margin: 30px;
+
+}
