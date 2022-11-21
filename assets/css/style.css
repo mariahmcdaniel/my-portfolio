@@ -48,6 +48,7 @@ a:hover {
     border-radius: 10px;
     padding: 30px;
     margin: 20px;
+    text-align: center;
 }
 
 h2 {
@@ -63,7 +64,7 @@ img {
 
 p {
     background-color: #CFFFA1;
-    padding: 30px;
+    padding: 20px;
     border-radius: 20px;
     font-size: 20px;
 }
