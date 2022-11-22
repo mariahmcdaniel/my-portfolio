@@ -53,7 +53,8 @@ a:hover {
     font-size: clamp(3rem, 1rem + vw, 7rem)
 }
 
-h2 {
+h2,
+h4 {
     background-color: #DB5481;
     border-radius: 20px;
     padding: 10px;
