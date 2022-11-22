@@ -1,3 +1,7 @@
+:root {
+    --borderrad: 20px;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -36,7 +40,7 @@ nav {
     align-items: flex-end;
     margin: 2%;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: var(--borderrad);
 }
 
 nav a {
@@ -56,7 +60,7 @@ a:hover {
     background-color: #D6C2BF;
     flex-direction: column;
     align-items: center;
-    border-radius: 10px;
+    border-radius: var(--borderrad);
     padding: 30px;
     margin: 20px;
     text-align: center;
@@ -67,7 +71,7 @@ a:hover {
 h2,
 h4 {
     background-color: #DB5481;
-    border-radius: 20px;
+    border-radius: var(--borderrad);
     padding: 10px;
     font-size: clamp(1.5rem, 1.5vw, 5rem)
 }
@@ -79,13 +83,13 @@ img {
 p {
     background-color: #CFFFA1;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: var(--borderrad);
     font-size: clamp(1rem, 1vw, 3rem);
 }
 
 #projects {
     background-color: #D6C2BF;
-    border-radius: 20px;
+    border-radius: var(--borderrad);
     padding: 30px;
     min-height: fit-content;
     place-items: center;
@@ -129,7 +133,7 @@ footer {
     align-items: center;
     background-color: lightpink;
     gap: 50px;
-    border-radius: 20px;
+    border-radius: var(--borderrad);
     margin: 20px;
     padding: 20px;
 }
@@ -145,7 +149,7 @@ footer a {
 
 
 #myphoto {
-    width: 300px;
+    max-width: 300px;
 }
 
 @media screen and (max-width: 768px) {
