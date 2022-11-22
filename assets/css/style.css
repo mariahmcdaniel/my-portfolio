@@ -2,6 +2,7 @@
     max-width: 1140px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0 1em;
 }
 
 header {
@@ -49,6 +50,7 @@ a:hover {
     padding: 30px;
     margin: 20px;
     text-align: center;
+    font-size: clamp(3rem, 1rem + vw, 7rem)
 }
 
 h2 {
@@ -66,7 +68,7 @@ p {
     background-color: #CFFFA1;
     padding: 20px;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: clamp(2rem, 1rem +vw, 7rem);
 }
 
 #projects {
@@ -76,7 +78,7 @@ p {
 }
 
 #projects h2 {
-    width: 130px;
+    max-width: 130px;
     font-size: 22px;
 
 }
@@ -88,15 +90,15 @@ p {
     text-align: center;
     flex-direction: column;
     max-height: 600px;
-    max-width: 650px;
+    max-width: 900px;
 }
 
 article {
-    width: 50%;
+    max-width: 50%;
 }
 
 #mainarticle {
-    width: 100%;
+    max-width: 100%;
 }
 
 footer {
@@ -122,4 +124,12 @@ footer a {
 
 #myphoto {
     width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+
+    nav,
+    footer {
+        flex-direction: column;
+    }
 }
