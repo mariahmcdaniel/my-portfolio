@@ -75,6 +75,8 @@ p {
     background-color: #D6C2BF;
     border-radius: 20px;
     padding: 30px;
+    min-height: fit-content;
+    place-items: center;
 }
 
 #projects h2 {
@@ -110,6 +112,7 @@ footer {
     gap: 50px;
     border-radius: 20px;
     margin: 20px;
+    padding: 20px;
 }
 
 footer a {
@@ -131,5 +134,9 @@ footer a {
     nav,
     footer {
         flex-direction: column;
+    }
+
+    .mywork {
+        display: inline-block;
     }
 }
