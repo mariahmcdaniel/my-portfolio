@@ -16,7 +16,7 @@ Additionally, I have styled my portfolio so that it can be accessed on a smaller
 
 ![About me Preview](assets/images/aboutme.png)
 
-![Projects Preview](assets/images/projects.png)
+![Projects Preview](assets/images/mywork.png)
 
 ![Contact Preview](assets/images/footer.png)
 
