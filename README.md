@@ -12,7 +12,7 @@ For this project, I created a personal portfolio using HTML and CSS in order to 
 Additionally, I have styled my portfolio so that it can be accessed on a smaller screen without compromising any of the funtionality.
 
 ## Visuals
-![Header and Nav preview](assets/images/headernav.png)
+![Header and Nav preview](assets/images/headerandnav.png)
 
 ![About me Preview](assets/images/aboutme.png)
 
