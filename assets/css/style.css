@@ -161,9 +161,14 @@ footer a {
 
     .mywork {
         display: inline-block;
+        place-items: center;
+    }
+
+    article img {
+        max-width: 125px;
     }
 
     #mainarticle img {
-        max-width: 300px;
+        max-width: 250px;
     }
 }
