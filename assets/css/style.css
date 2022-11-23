@@ -157,6 +157,7 @@ footer a {
     nav,
     footer {
         flex-direction: column;
+        gap: 15px;
     }
 
     .mywork {
