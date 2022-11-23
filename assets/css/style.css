@@ -162,4 +162,8 @@ footer a {
     .mywork {
         display: inline-block;
     }
+
+    #mainarticle img {
+        max-width: 300px;
+    }
 }
